@@ -8,24 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AD26B7D52795FFA700BB7E30 /* iOSConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7D42795FFA700BB7E30 /* iOSConcurrencyApp.swift */; };
-		AD26B7D72795FFA700BB7E30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7D62795FFA700BB7E30 /* ContentView.swift */; };
+		AD26B7D72795FFA700BB7E30 /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7D62795FFA700BB7E30 /* UsersListView.swift */; };
 		AD26B7D92795FFA800BB7E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26B7D82795FFA800BB7E30 /* Assets.xcassets */; };
 		AD26B7DC2795FFA800BB7E30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26B7DB2795FFA800BB7E30 /* Preview Assets.xcassets */; };
 		AD26B7E5279B167000BB7E30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7E4279B167000BB7E30 /* User.swift */; };
 		AD26B7E7279B171900BB7E30 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7E6279B171900BB7E30 /* Post.swift */; };
 		AD26B7EA279B18B800BB7E30 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7E9279B18B800BB7E30 /* APIService.swift */; };
+		AD26B7EE279B4A2E00BB7E30 /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7ED279B4A2E00BB7E30 /* UsersListViewModel.swift */; };
+		AD26B7F0279B4FDF00BB7E30 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = AD26B7EF279B4FDF00BB7E30 /* Users.json */; };
+		AD26B7F2279B500D00BB7E30 /* Posts.json in Resources */ = {isa = PBXBuildFile; fileRef = AD26B7F1279B500D00BB7E30 /* Posts.json */; };
+		AD26B7F5279B513100BB7E30 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7F4279B513100BB7E30 /* Bundle+Extension.swift */; };
+		AD26B7F7279B515600BB7E30 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7F6279B515600BB7E30 /* MockData.swift */; };
+		AD26B7F9279B5F5B00BB7E30 /* PostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7F8279B5F5B00BB7E30 /* PostsListViewModel.swift */; };
+		AD789F7E27A987FF00FA8688 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD789F7D27A987FF00FA8688 /* PostsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD26B7D12795FFA700BB7E30 /* iOSConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD26B7D42795FFA700BB7E30 /* iOSConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSConcurrencyApp.swift; sourceTree = "<group>"; };
-		AD26B7D62795FFA700BB7E30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD26B7D62795FFA700BB7E30 /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
 		AD26B7D82795FFA800BB7E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD26B7DB2795FFA800BB7E30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD26B7E2279B020D00BB7E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AD26B7E4279B167000BB7E30 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AD26B7E6279B171900BB7E30 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		AD26B7E9279B18B800BB7E30 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		AD26B7ED279B4A2E00BB7E30 /* UsersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModel.swift; sourceTree = "<group>"; };
+		AD26B7EF279B4FDF00BB7E30 /* Users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		AD26B7F1279B500D00BB7E30 /* Posts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Posts.json; sourceTree = "<group>"; };
+		AD26B7F4279B513100BB7E30 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		AD26B7F6279B515600BB7E30 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		AD26B7F8279B5F5B00BB7E30 /* PostsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewModel.swift; sourceTree = "<group>"; };
+		AD789F7D27A987FF00FA8688 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +73,12 @@
 			isa = PBXGroup;
 			children = (
 				AD26B7E3279B166600BB7E30 /* Models */,
+				AD26B7EB279B49FD00BB7E30 /* Views */,
+				AD26B7EC279B4A1900BB7E30 /* ViewModels */,
 				AD26B7E8279B18A800BB7E30 /* Services */,
+				AD26B7F3279B512400BB7E30 /* Extensions */,
 				AD26B7E2279B020D00BB7E30 /* Info.plist */,
 				AD26B7D42795FFA700BB7E30 /* iOSConcurrencyApp.swift */,
-				AD26B7D62795FFA700BB7E30 /* ContentView.swift */,
 				AD26B7D82795FFA800BB7E30 /* Assets.xcassets */,
 				AD26B7DA2795FFA800BB7E30 /* Preview Content */,
 			);
@@ -73,6 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				AD26B7DB2795FFA800BB7E30 /* Preview Assets.xcassets */,
+				AD26B7EF279B4FDF00BB7E30 /* Users.json */,
+				AD26B7F1279B500D00BB7E30 /* Posts.json */,
+				AD26B7F6279B515600BB7E30 /* MockData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -92,6 +111,32 @@
 				AD26B7E9279B18B800BB7E30 /* APIService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		AD26B7EB279B49FD00BB7E30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD26B7D62795FFA700BB7E30 /* UsersListView.swift */,
+				AD789F7D27A987FF00FA8688 /* PostsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD26B7EC279B4A1900BB7E30 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD26B7F8279B5F5B00BB7E30 /* PostsListViewModel.swift */,
+				AD26B7ED279B4A2E00BB7E30 /* UsersListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD26B7F3279B512400BB7E30 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD26B7F4279B513100BB7E30 /* Bundle+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +197,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD26B7F0279B4FDF00BB7E30 /* Users.json in Resources */,
 				AD26B7DC2795FFA800BB7E30 /* Preview Assets.xcassets in Resources */,
 				AD26B7D92795FFA800BB7E30 /* Assets.xcassets in Resources */,
+				AD26B7F2279B500D00BB7E30 /* Posts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,10 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD26B7D72795FFA700BB7E30 /* ContentView.swift in Sources */,
+				AD26B7D72795FFA700BB7E30 /* UsersListView.swift in Sources */,
+				AD26B7F5279B513100BB7E30 /* Bundle+Extension.swift in Sources */,
+				AD26B7EE279B4A2E00BB7E30 /* UsersListViewModel.swift in Sources */,
+				AD26B7F9279B5F5B00BB7E30 /* PostsListViewModel.swift in Sources */,
 				AD26B7EA279B18B800BB7E30 /* APIService.swift in Sources */,
 				AD26B7D52795FFA700BB7E30 /* iOSConcurrencyApp.swift in Sources */,
+				AD26B7F7279B515600BB7E30 /* MockData.swift in Sources */,
 				AD26B7E5279B167000BB7E30 /* User.swift in Sources */,
+				AD789F7E27A987FF00FA8688 /* PostsListView.swift in Sources */,
 				AD26B7E7279B171900BB7E30 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
