@@ -14,6 +14,7 @@ struct User: Codable, Identifiable {
     let name: String
     let username: String
     let email: String
+    let test: String
 }
 
 
